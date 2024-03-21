@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+
+  <body>
+    <!-- Хидер -->
+    <header class="header center">
+      <nav class="navigation">
+        <!-- Див для логотипа -->
+        <div class="logo">
+          <a href="index.html"
+            ><img src="./img/header/logo.svg" alt="Логотип"
+          /></a>
+        </div>
+        <!-- Див для соцСетей -->
+        <div class="messangers">
+          <!-- Список -->
+          <ul class="list">
+            <!-- элементы -->
+            <li class="items">
+              <!-- Ютуб -->
+              <a href="#" class="items__link"
+                ><img src="./img/header/YouTube.svg" alt="СсылкаНаЮутуб"
+              /></a>
+            </li>
+            <!-- вК -->
+            <li class="items">
+              <a href="#" class="items__link"
+                ><img src="./img/header/vk.svg" alt="СсылкаНаВк"
+              /></a>
+            </li>
+            <!-- Фейсбук -->
+            <li class="items">
+              <a href="#" class="items__link"
+                ><img src="./img/header/facebook.svg" alt="СсылкаНаФейсбук"
+              /></a>
+            </li>
+            <!-- Твиттер -->
+            <li class="items">
+              <a href="#" class="items__link"
+                ><img src="./img/header/twitter.svg" alt="СсылкаНаТвиттер"
+              /></a>
+            </li>
+            <!-- Твич -->
+            <li class="items">
+              <a href="#" class="items__link"
+                ><img src="./img/header/twitch.svg" alt="СсылкаНаТвич"
+              /></a>
+            </li>
+            <!-- Инстаграмм -->
+            <li class="items">
+              <a href="#" class="items__link"
+                ><img src="./img/header/instagram.svg" alt="СсылкаНаИнстаграмм"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Вопрос первый не могу реализовать данную часть! -->
+      <!-- Желтая картинка с кнопкой и текстом -->
+      <!-- <div class="header__pic">
+        <img src="./img/header/header__img.png" alt="Картинка с инфой" />
+        <span
+          ><p>Доступно на всех платформах</p>
+          <button>Узанть больше</button></span
+        >
+      </div> -->
+    </header>
+    <!-- Первая секция -->
+    <section class="first__section center">
+      <h1 class="title">Найт-Сити изменит тебя навсегда!</h1>
+      <p class="text">
+        <span class="text__color">Cyberpunk 2077</span> — приключенческая
+        ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где
+        власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V,
+        наёмника в поисках устройства, позволяющего обрести бессмертие. Ты
+        сможешь менять киберимпланты, навыки и стиль игры своего персонажа,
+        исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что
+        тебя окружает.
+      </p>
+      <div class="cards__box">
+        <div class="image__box">
+          <img
+            src="./img/first_section/firstCard.png"
+            alt="Картинка1"
+            class="image"
+          />
+          <img
+            src="./img/first_section/seconsdCard.png"
+            alt="Картинка1"
+            class="image"
+          />
+        </div>
+        <div>
+          <img
+            src="./img/first_section/thirdCard.png"
+            alt="Картинка 3"
+            class="big__image"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Вторая секция -->
+    <div class="addition__bck center"></div>
+    <section class="second__section center">
+      <!-- первая коробка с акциями и текстом -->
+      <div class="section__box-two">
+        <img src="./img/second_section/sale.svg" alt="Скидки" class="sales" />
+        <h1 class="main__text">Играй и выигрывай!</h1>
+      </div>
+      <!-- Текс-описание -->
+      <p class="second__description">
+        Играй в <span class="text__color">Cyberpunk 2077</span> и получи
+        возможность выиграть консоль
+        <span class="text__color">Xbox Series X</span> или
+        <span class="text__color">Sony PlayStation 5</span>! Заполни форму ниже
+        и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1
+        февраля. Удачи!
+      </p>
+      <!-- Хранилище для ввода и фото -->
+      <div class="box__inputAdnPhoto">
+        <!-- Форма -->
+        <form action="#" class="form">
+          <!-- <label for="#" class="label__text">Как тебя зовут? </label> -->
+          <input
+            placeholder="Как тебя зовут?"
+            type="text"
+            class="input__name input__double"
+          />
+
+          <!-- <label for="#" class="label__text">Твой е-mail </label> -->
+          <input
+            placeholder="Твой е-mail"
+            type="email"
+            class="input__email input__double"
+          />
+
+          <!-- <label for="#" class="label__text">Прикрепить скриншот</label> -->
+          <input
+            type="file"
+            class="input__PrinScrin"
+            placeholder="Прикрепить скриншот и .png / .jpg / .pdf"
+          />
+
+          <button class="send__button">Отправить</button>
+        </form>
+
+        <img
+          src="./img/second_section/bckimageSection2.png"
+          alt="фото"
+          class="section__image"
+        />
+      </div>
+    </section>
+    <!-- Третья секция -->
+    <div class="addition__bck-2 center"></div>
+    <section class="third__section center">
+      <!-- Общая коробка -->
+      <div class="section__box-three">
+        <!-- Картинки моника -->
+        <div class="monitorAdnLogo__box">
+          <img
+            class="img__monik"
+            src="./img/third_section/monitor.png"
+            alt="КартинкаМонитора"
+          />
+          <img
+            class="img__logo-monik"
+            src="./img/third_section/monitorLogo.png"
+            alt="КартинкаЛоготипа"
+          />
+        </div>
+        <!-- Второй подблок -->
+        <div class="titleAndtext__box">
+          <h1 class="title__cyberpunk">Полное погружение вместе с HP</h1>
+          <p class="text__cyberpunk">
+            Погрузись в современные экшен-игры с реалистичным изображением с
+            помощью монитора с диагональю 23,8 дюйма, созданном для отображения
+            максимально насыщенных цветов. Успевай реагировать на любые события
+            с временем отклика 1 мс и частотой в 144 Гц!
+          </p>
+          <p class="align__items">
+            <img src="./img/third_section/palitra.svg" alt="" />Яркие насыщенные
+            цвета
+          </p>
+          <p class="align__items">
+            <img src="./img/third_section/starLogo.svg" alt="" />Кристальная
+            четкость изображения
+          </p>
+          <p class="align__items">
+            <img src="./img/third_section/appLogo.svg" alt="" />Быстрые движения
+            и плавный геймплей
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
